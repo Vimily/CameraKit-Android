@@ -478,7 +478,7 @@ public class Camera1 extends CameraImpl {
         mMediaRecorder.setCamera(mCamera);
 
         mMediaRecorder.setVideoSource(MediaRecorder.VideoSource.CAMERA);
-        mMediaRecorder.setAudioSource(MediaRecorder.AudioSource.DEFAULT);
+        mMediaRecorder.setAudioSource(MediaRecorder.AudioSource.CAMCORDER);
 
         mMediaRecorder.setProfile(getCamcorderProfile(mVideoQuality));
 
